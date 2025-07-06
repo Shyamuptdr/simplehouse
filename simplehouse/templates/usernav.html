@@ -1,0 +1,53 @@
+{% load static %}
+
+<div class="container">
+  <!-- Nav Start -->
+  <div class="placeholder">
+    <div
+      class="parallax-window"
+      data-parallax="scroll"
+      data-image-src="{% static 'img/simple-house-01.jpg' %}"
+    >
+      <div class="tm-header">
+        <div class="row tm-header-inner">
+          <div class="col-md-6 col-12">
+            <img
+              src="{% static 'img/simple-house-logo.png' %}"
+              alt="Logo"
+              class="tm-site-logo"
+            />
+            <div class="tm-site-text-box">
+              <h1 class="tm-site-title">User Panel</h1>
+              <h6 class="tm-site-description">Simple House</h6>
+            </div>
+          </div>
+          <nav class="col-md-6 col-12 tm-nav">
+            <ul class="tm-nav-ul">
+              <li class="tm-nav-li">
+                <a href="/myadmin" class="tm-nav-link">Home</a>
+              </li>
+              <li class="tm-nav-li">
+                <a href="/sharerecipe/" class="tm-nav-link">Share Recipe</a> 
+              </li>
+              <li class="tm-nav-li">
+                <a href="/viewrecipe/" class="tm-nav-link">View Recipe</a> 
+              </li>
+              <li class="tm-nav-li">
+                <a href="/order/" class="tm-nav-link">Order</a> 
+              </li>
+              <li class="tm-nav-li">
+                <a href="/cpuser/" class="tm-nav-link">Change password</a>
+              </li>
+              
+              <li class="tm-nav-li">
+                <a href="/login/" class="tm-nav-link">Logout</a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Nav -->
